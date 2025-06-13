@@ -1,0 +1,26 @@
+# Folder folder ini dihapus karena memakan banyak sekali storage
+
+# YOLO_8_11_12
+YOLO_8_11_12/temp
+YOLO_8_11_12/data
+YOLO_8_11_12/results/*
+!YOLO_8_11_12/results/.gitkeep
+YOLO_8_11_12/yolov8
+YOLO_8_11_12/yolov10
+YOLO_8_11_12/yolov11
+YOLO_8_11_12/yolov12
+
+# Faster R-CNN
+FasterR-CNN/dataset_1500_YOLO
+FasterR-CNN/result/images/*
+!FasterR-CNN/result/images/.gitkeep
+FasterR-CNN/result/models/*
+!FasterR-CNN/result/models/.gitkeep
+
+# EfficientDET
+EfficientDET/datasets/*
+!EfficientDET/datasets/.gitkeep
+EfficientDET/logs/*
+!EfficientDET/logs/.gitkeep
+
+
